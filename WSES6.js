@@ -243,3 +243,29 @@ var t = ["Rahma",3,5,3,"hadir",2]
 console.log(t.find((el,i,t)=> el == 10))
 
 console.log(t.findIndex((el,i,t)=>el == "had"))
+
+
+var tab = [2,6,9,7,-7,8,-1000]
+
+console.log(tab.sort((a,b)=> b-a))
+
+var tab = [2,6,9,7,-7,8,-1000]
+
+
+
+console.log(tab.splice(2,3))
+
+console.log(tab)
+
+var jomla = "Hello princess Rania from Megrine capital"
+
+console.log(jomla.split("l").join('/'))
+
+
+
+// var tab = [2,3,4,8]
+
+// console.log(tab.join('Hello'))
+
+
+
